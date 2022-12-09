@@ -1,0 +1,368 @@
+
+body {
+    min-height: 100vh;
+    width: 100vh;
+    overflow-x: hidden;
+    font-family: "Quicksand", sans-serif;
+    background-color: black;
+}
+/*banner*/
+.top {
+    background-image: url(../images/1.jpg);
+    opacity: 75%;
+    padding: 497px 960px;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.content h1 {
+    position: absolute;
+    width: 778px;
+    height: 12%;
+    left: 25%;
+    top: 40%;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 600%;
+    line-height: 145px;
+    text-transform: uppercase;
+    color: #FEF8F0;
+}
+
+.content h3 {
+    position: absolute;
+    width: 634px;
+    height: 7%;
+    left: 28%;
+    top: 52%;
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 300%;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #F9B75D;
+}
+
+/*endbanner*/
+/*essen*/
+.content-food {
+    background-color: #050505;
+    padding: 49px 828px;
+    font-family: 'Abel';
+    font-style: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/*endessen*/
+/*foodpic*/
+.food-pic {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1E1E1E;
+}
+
+img {
+    width: 520px;
+    height: 350px;
+    margin-left: 78px;
+    border-radius: 40px;
+    border: solid white 3px;
+}
+
+/*endfoodpic*/
+/*black*/
+.more-info {
+    background-color: #050505;
+    padding: 49px 400px;
+    font-family: 'Abel';
+    font-style: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#kon {
+    position: absolute;
+    text-decoration-line: underline;
+    width: 305px;
+    height: 61px;
+    left: 1235px;
+    top: 1745px;
+}
+
+.about-us {
+    background-color: #1E1E1E;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-us1 {
+    background-color: white;
+    padding: 30px;
+    width: 700px;
+
+}
+
+.about-us1 .about-us-content {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.about-us1 .about-us-content h1 {
+    font-family: 'Abel';
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+.contect-us {
+    background-color: white;
+    padding: 30px;
+    padding-bottom: 23px;
+    width: 700px;
+}
+
+.contect-us .contact-us-content {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.contect-us .contact-us-content ul {
+    list-style-type: none;
+    color: green;
+    opacity: 0.8;
+}
+
+.contect-us .contact-us-content ul li {
+    margin-top: 10px;
+}
+
+.contect-us .contact-us-content ul li i {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.contect-us .contact-us-content ul .push {
+    margin-left: 41px;
+}
+
+.contect-us .contact-us-content ul .call {
+    text-decoration: underline;
+}
+
+.contect-us .contact-us-content ul .call:hover {
+    opacity: 0.5;
+}
+
+.contect-us .contact-us-content h2 {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 112px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.contect-us .contact-us-content h1{
+        font-family: 'Abel';
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+/*endblack*/
+@media (max-width: 1000px)
+{
+
+    
+       .content h1 {
+    width: 520px;
+    height: 5%;
+    left: 40%;
+    top: 400px;
+    font-size: 400%;
+    line-height: 145px;
+}
+
+    .content h3 {
+    width: 440px;
+    height: 3%;
+    left: 45%;
+    top: 500px;
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+    line-height: 58px;
+}
+    .content-food {
+    padding: 20px 380px;
+    
+    }
+    
+    b {
+        text-decoration: none;
+    }
+    
+    
+    .food-pic {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-color: #1E1E1E;
+}
+
+img {
+    width: 600px;
+    height: 350px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    border: solid white 3px;
+}
+
+    #kon {
+    width: 305px;
+    height: 61px;
+    left: 600px;
+    top: 2420px;
+}
+
+    .more-info {
+    padding: 49px 170px;
+    font-family: 'Abel';
+    font-style: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+    .about-us {
+    background-color: #1E1E1E;
+    padding-right: 150px;
+    padding-left: 140px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.about-us1 {
+    background-color: white;
+    padding: 30px;
+    width: 700px;
+
+}
+    #essen {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+.about-us1 .about-us-content {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+    .contect-us {
+    background-color: white;
+    padding: 30px;
+    padding-bottom: 23px;
+    width: 700px;
+}
+
+.contect-us .contact-us-content {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.contect-us .contact-us-content ul {
+    list-style-type: none;
+    color: green;
+    opacity: 0.8;
+}
+}
+
+
+
+@media (min-width: 1024px)
+{
+.top{
+      padding: 480px 1024px;
+    }
+    .content h1 {
+    position: absolute;
+    width: 778px;
+    height: 12%;
+    left: 600px;
+    top: 300px;
+    }
+    .content h3 {
+        position: absolute;
+        width: 634px;
+        height: 7%;
+        left: 650px;
+        top: 430px;
+    }
+    .content-food{
+        padding: 49px 1024px;
+    }
+    .content-food h1{
+        width: 250px;
+        position: relative;
+        right: 110px;
+    }
+    .food-pic{
+        padding-left: 110px;
+        width: 2050px;
+    }
+    img{
+        margin-left: 60px;
+
+    }
+    .more-info{
+        width: 2050px;
+       
+    }
+    #kon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    top: 1700px;
+    }
+        .about-us {
+   width: 2050px;
+}
+}
+
+
+
+
+
+
+
+
